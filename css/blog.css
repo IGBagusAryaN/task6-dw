@@ -242,4 +242,8 @@ input[type="checkbox"]:checked + label:before {
   .form-blog {
     width: 300px;
   }
+  
+  h1{
+    font-size: 24px;
+  }
 } 
