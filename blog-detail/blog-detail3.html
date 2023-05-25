@@ -12,14 +12,19 @@
     <nav>
         <div class="navbar">
             <div class="nav-left">
-                <img src="../assets/images/png/logo.png" alt="" class="logo" width="40">
+                <img src="./assets/images/png/logo.png" alt="" class="logo" width="40">
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../blog.html">My Project</a></li>
+                    <li class="item-collapse"><a href="index.html">Home</a></li>
+                    <li class="item-collapse"><a href="blog.html">My Project</a></li>
                 </ul>
             </div>
-            <div class="nav-right">
-                <a href="../contact.html">Contact me</a>
+            <div class="nav-right item-collapse">
+                <a href="contact.html">Contact me</a>
+            </div>
+            <div class="nav-right" id="barsmenu">
+                <button style="border: none; cursor: pointer;" onclick="openHamburger()">
+                    <img src="./assets/images/svg/menu-fill.svg" alt="" width="25px" >
+                </button>
             </div>
         </div>
     </nav>
@@ -27,7 +32,7 @@
         <div class="container-project">
             <h2>NFT Web</h2>
             <div class="project">
-                <img src="../assets/images/png/project-3.png" alt="" width="550" >
+                <img class="img-project" src="../assets/images/png/project-3.png" alt="" width="550" >
                 <div>
                     <h3>Duration</h3>
                     <div class="duration">

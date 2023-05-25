@@ -323,9 +323,6 @@ form button:hover{
     100% {
         transform: translateY(0);
     }
-    0% {
-        transform: translateY(-100%);
-    }
 }
 
 @media only screen and (max-width: 900px) {
