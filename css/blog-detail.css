@@ -53,7 +53,18 @@
 }
 
 @media only screen and (max-width: 900px) {
-    
+    .container-project{
+        width: 100%;
+        margin-left: 0;
+    }
+    .project{
+        flex-direction: column;
+        width: 100%;
+    }    
+
+    .project .img-project{
+        width: 100%;
+    }
   }
   
 @media only screen and (max-width: 550px) {
